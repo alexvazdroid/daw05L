@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de los Departamentos</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <script src="js/mapa.js"></script>
+    
+</head>
+<body>
+  
+  <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
+    <a class="navbar-brand" href="index.html">
+      <img id="logo" src="img/republica.jpg" width="50" height="50"  class="d-inline-block align-center" alt="">
+      Todo Tou
+    </a>
+    <a href="">Creadores</a>
+    <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
+      
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle " data-toggle="dropdown">
+                Departamentos <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#ZonaOcci">Zona occidental</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#Ahuachapan">Ahuachapán</a></li>
+                    <li><a href="#Sonsonate">Sonsonate</a></li>
+                    <li><a href="#SantaAna">Santa Ana</a></li>
+                  </ul>
+                </li>
+                <li><a href="#ZonaOri">Zona oriental</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#Usulutan">Usulután</a></li>
+                    <li><a href="#SanMiguel">San Miguel</a></li>
+                    <li><a href="#Morazan">Morazán</a></li>
+                    <li><a href="#LaUnion">La Unión</a></li>
+                  </ul>
+                </li>
+                <li><a href="#ZonaC">Zona central</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#SanSalvador">San Salvador</a></li>
+                    <li><a href="#Cuscatlan">Cuscatlán</a></li>
+                    <li><a href="#Chalatenango">Chalatenango</a></li>
+                    <li><a href="#LaLibertad">La Libertad</a></li>
+                    <li><a href="#Cabañas">Cabañas</a></li>
+                    <li><a href="#LaPaz">La Paz</a></li>
+                    <li><a href="#SanVicente">San Vicente</a></li>
+                  </ul>
+                </li>
+                
+                
+              </ul>
+            </li>
+            </ul>
+            
+  </nav>
+  </nav>
+
+  <center>
+    <img id="mapa" src="img/mapa.png" alt="">
+    </center>
+    <a href="#Ahuachapan" onmouseover="mostrar()" onmouseout="desaparecer()" id="Ahu">Ahuachapan</a>
+    <a href="#Cabañas" onmouseover="mostrar4()" onmouseout="desaparecer4()" id="cab">Cabañas</a>
+    <a href="#Chalatenango" onmouseover="mostrar5()" onmouseout="desaparecer5()" id="cha">Chalatenango</a>
+    <a href="#Cuscatlan" onmouseover="mostrar6()" onmouseout="desaparecer6()" id="cus">Cuscatlán</a>
+    <a href="#LaLibertad" onmouseover="mostrar3()" onmouseout="desaparecer3()" id="liber">La Libertad</a>
+    <a href="#Morazan" onmouseover="mostrar7()" onmouseout="desaparecer7()" id="mora">Morazán</a>
+    <a href="#LaPaz" onmouseover="mostrar8()" onmouseout="desaparecer8()" id="paz">La Paz</a>
+    <a href="#SantaAna" onmouseover="mostrar1()" onmouseout="desaparecer1()" id="sant">Santa Ana</a>
+    <a href="#SanMiguel" onmouseover="mostrar2()" onmouseout="desaparecer2()" id="sanmi">San Miguel</a>
+    <a href="#SanSalvador" onmouseover="mostrar9()" onmouseout="desaparecer9()" id="sansalv">San Salvador</a>
+    <a href="#SanVicente" onmouseover="mostrar10()" onmouseout="desaparecer10()" id="sanvic">San Vicente</a>
+    <a href="#Sonsonate" onmouseover="mostrar11()" onmouseout="desaparecer11()" id="sonso">Sonsonate</a>
+    <a href="#LaUnion" onmouseover="mostrar12()" onmouseout="desaparecer12()" id="union">La Unión</a>
+    <a href="#" onmouseover="mostrar13()" onmouseout="desaparecer13()" id="usul">Usulután</a>  
+    <div class="departamentos" id="ahuachapan1">
+      <p class="infodepa" >El municipio de Ahuachapán es la capital del departamento de Ahuachapán y una de las ciudades más importantes de la zona occidental de El Salvador</p>
+      <p>--------------------------------------</p>
+      <p>extencion:244,8 km²</p>
+    </div>
+    <div class="departamentos" id="SantaAna1">
+      <p class="infodepa">Santa Ana es la ciudad capital del departamento cafetero de Santa Ana, en el oeste de El Salvador. La alta Catedral de Santa Ana, de estilo neogótico, y el Teatro Nacional de Santa Ana adornado están en la plaza principal, Parque Libertad. </p>
+      <p>---------------------------------------</p>
+      <p>Superficie: 408 km²</p>
+    </div>
+    <div class="departamentos" id="SanMiguel1">
+      <p class="infodepa" >San Miguel es una ciudad del este de El Salvador. Es conocida por su enorme Carnaval de San Miguel en nov, que honra a Nuestra Señora de la Paz. La Catedral Basílica de Nuestra Señora de la Paz se encuentra en el Parque David J. Guzmán, ubicado en el centro, y tiene torres con tejados rojos. El volcán activo </p>
+      <p>--------------------------------------</p>
+      <p>Superficie: 594 km²</p>
+    </div>
+    <div class="departamentos" id="LaLibertad1">
+      <p class="infodepa" >La Libertad es un departamento de El Salvador. Su Cabecera es la ciudad de Santa Tecla, Cabecera también del municipio homónimo. Tiene una extensión territorial de 1653 km² y una población de 843 500 habitantes. </p>
+      <p>--------------------------------------</p>
+      <p>Superficie: 1.653 km²</p>
+    </div>
+    <div class="departamentos" id="cabañas1">
+      <p class="infodepa" >Cabañas es un departamento de la zona paracentral de El Salvador. Su cabecera departamental es Sensuntepeque. Esta región tiene muchas reservas naturales. El departamento fue nombrado en honor del político centroamericanista hondureño, José Trinidad Cabañas.</p>
+      <p>--------------------------------------</p>
+      <p>Superficie: 1.104 km²</p>
+    </div>
+    <div class="departamentos" id="chalatenango1">
+      <p class="infodepa" >Chalatenango es la cabecera del Departamento homónimo de El Salvador. Su territorio se divide en 6 cantones y 36 caseríos. Tiene una población era de 29 271 habitantes según censo de 2007, lo que lo convierte en el municipio más poblado del departamento </p>
+      <p>--------------------------------------</p>
+      <p>Superficie: 131,8 km²</p>
+    </div>
+    <div class="departamentos" id="Cuscatlán1">
+      <p class="infodepa" >Cuscatlán es uno de los catorce departamentos que conforman la República de El Salvador </p>
+      <p>--------------------------------------</p>
+      <p>Superficie: 756 km²</p>
+    </div>
+    <div class="departamentos" id="Morazán1">
+      <p class="infodepa" >Morazán es un departamento de El Salvador ubicado en la zona oriental del país. Limita al norte con la república de Honduras; al sur y al oeste con el departamento de San Miguel, y al sur y al este con el departamento de La Unión. </p>
+      <p>--------------------------------------</p>
+      <p>Superficie: 1.447 km²</p>
+    </div>
+    <div class="departamentos" id="LaPaz1">
+      <p class="infodepa" >La Paz es uno de los catorce departamentos que conforman la República de El Salvador. La cabecera departamental es la ciudad de Zacatecoluca. </p>
+      <p>--------------------------------------</p>
+      <p>Superficie: 1.224 km²</p>
+    </div>
+    <div class="departamentos" id="SantaAna1">
+      <p class="infodepa" >Santa Ana es la ciudad capital del departamento cafetero de Santa Ana, en el oeste de El Salvador. La alta Catedral de Santa Ana, de estilo neogótico, y el Teatro Nacional de Santa Ana adornado están en la plaza principal, Parque Libertad.</p>
+      <p>--------------------------------------</p>
+      <p>Superficie: 408 km²</p>
+    </div>
+    <div class="departamentos" id="SanMiguel1">
+      <p class="infodepa" >San Miguel es una ciudad del este de El Salvador. Es conocida por su enorme Carnaval de San Miguel en nov, que honra a Nuestra Señora de la Paz. </p>
+      <p>--------------------------------------</p>
+      <p>Superficie: 594 km²</p>
+    </div>
+    <div class="departamentos" id="SanSalvador1">
+      <p class="infodepa" >San Salvador es la capital y la urbe más grande de la República de El Salvador y una de las ciudades más pobladas de Centroamérica.</p>
+      <p>--------------------------------------</p>
+      <p>Elevación: 658 m</p>
+    </div>
+    <div class="departamentos" id="SanVicente1">
+      <p class="infodepa" >San Vicente es uno de los catorce departamentos que conforman la República de El Salvador, en la región Paracentral. La ciudad cabecera es San Vicente. </p>
+      <p>--------------------------------------</p>
+      <p>Superficie: 1.184 km²</p>
+    </div><div class="departamentos" id="Sonsonate1">
+      <p class="infodepa" >Sonsonate es una ciudad y municipio del departamento homónimo, República de El Salvador, del cual es también su cabecera. Tiene una población estimada de 72 158 habitantes para el año 2013.​ </p>
+      <p>--------------------------------------</p>
+      <p>Superficie: 232,5 km²</p>
+    </div>
+  </div><div class="departamentos" id="LaUnion1">
+    <p class="infodepa" >La Unión es un municipio del departamento de La Unión, en la parte oriental de la República de El Salvador, sobre la costa del golfo de Fonseca </p>
+    <p>----------------------------------------</p>
+    <p>Superficie: 144,4 km²</p>
+  </div>
+  </div><div class="departamentos" id="Usulután1">
+    <p class="infodepa" >Usulután ubicado en la zona oriental es uno de los catorce departamentos que conforman la República de El Salvador.</p>
+    <p>----------------------------------------</p>
+    <p>Superficie: 2.130 km²</p>
+  </div>
+
+    <div id="cotenedor">
+      <a name="ZonaOcci"></a><h1 class="text-center">Zona Occidental</h1>
+      <div id="Ahuachapan" name="Ahuachapan">          
+        
+          <h1>Ahuachapan</h1>
+          <img src="img/Ahua.jpg" alt="Ahuachapan" class="01" >
+          <p>Ahuachapán es un departamento de El Salvador, que se encuentra
+             ubicado en la zona occidental del país, cerca de las costas salvadoreñas.
+             Su extensión territorial es de 1,239.06 km2; su cabecera departamental 
+             es el municipio de Ahuachapán.
+          </p>
+          <h2>Municipios</h2>
+              <p>- Apaneca</p>
+              <p>- Atiquizaya</p> 
+              <p>- Concepcion de ataco</p>
+              <p>- El refugio</p>
+              <p>- Guaymango</p>
+          
+          <h2>Centros turisticos</h2>
+              <p>- Laguna el espino</p>
+              <p>- Parque Corcodancia</p> 
+              <p>- Los ausoles</p>
+  
+          <h2>Personajes Celebres</h2>
+              <p>- Napoleon Rodriguez</p>
+              <p>- Arturo Romero</p> 
+              <p>- Alfredo espino</p>
+              <p>- Francisco Menendez</p>
+      </div>
+              <div id="Sonsonate">
+                
+                <h1>Sonsonate</h1>
+          <img src="img/Sonso.png" alt="Sonsonate">
+      <p>Sonsonate es una ciudad y municipio del departamento homónimo, 
+          República de El Salvador, del cual es también su cabecera. 
+          Tiene una población estimada de 72 158 habitantes para el año 2013.</p>
+      
+                  <h2>Municipios</h2>
+                      <p>- Acajutla</p>
+                      <p>- Armenia</p> 
+                      <p>- Caluco</p>
+                      <p>- Izalco</p>
+                      <p>- juayua</p>
+                  
+                  <h2>Centros turisticos</h2>
+                      <p>- Pedregal de San Isidro</p>
+                      <p>- El tren de Sonsonate</p> 
+                      <p>- Volcan de San Marcelino</p>
+          
+                  <h2>Personajes Celebres</h2>
+                      <p>- Rafael Barrientos</p>
+                      <p>- Jose Roberto</p> 
+                      <p>- Claudia Lars</p>
+                      <p>- Francisco Malespin</p>   
+          </div>
+          <div id="SantaAna">
+            <h1>Santa Ana</h1>
+              <img src="img/SAna.png" alt="SantaAna">
+              <p>Santa Ana es una ciudad salvadoreña, cabecera del municipio, 
+                  departamento, distrito y sede de la diócesis homónimos; y es la 
+                  ciudad principal de la zona occidental, y segunda ciudad en importancia
+                  de El Salvador, ubicada a 64 km de la capital estatal, San Salvador.</p>
+              
+                      <h2>Municipios</h2>
+                          <p>- Chalchuapa</p>
+                          <p>- Coatepeque</p> 
+                          <p>- El congo</p>
+                          <p>- Metapan</p>
+                          <p>- San Sebastian</p>
+                          
+                      <h2>Centros turisticos</h2>
+                          <p>- Parque Nacional Cerro Verde</p>
+                          <p>- Montecristo</p> 
+                          <p>- Turicentro Apuzunga</p>
+                  
+                      <h2>Personajes Celebres</h2>
+                          <p>- David Ganadino</p>
+                          <p>- David Escobar</p> 
+                          <p>- Pancho Lara</p>
+              </div>
+
+              <a name="ZonaC"></a><h1 class="text-center">Zona Central</h1>
+
+              <div id="Chalatenango">
+                 <h1>Chalatenango</h1>
+                  <img src="img/Chala.png" alt="Chalatenango">
+              <p>Chalatenango es la cabecera del Departamento homónimo de El Salvador.
+                   Su territorio se divide en 6 cantones y 36 caseríos. Tiene una 
+                   población era de 29 271 habitantes según censo de 2007, lo que lo 
+                   convierte en el municipio más poblado del departamento y el número 47 a 
+                   nivel nacional.</p>
+              
+                          <h2>Municipios</h2>
+                              <p>- Arcatao</p>
+                              <p>- La Palma</p> 
+                              <p>- Las Vueltas</p>
+                              <p>- Nombre de jesus</p>
+                              <p>- Azacualpa</p>
+                          
+                          <h2>Centros turisticos</h2>
+                              <p>- El pital</p>
+                              <p>- La Palma</p> 
+                              <p>- San Ignacio</p>
+                              <p>- Turicentro Agua Fria</p>
+                  
+                          <h2>Personajes Celebres</h2>
+                              <p>- Miguel Placido </p>
+                              <p>- Jose Maria San Martin</p> 
+                              <p>- Francisco Martinez </p>
+              </div> 
+  
+              <div id="LaLibertad">
+                <a name="LaLibertad"><h1>La Libertad</h1></a>
+                <img src="img/Libertad.png" alt="">
+              <p>La Libertad es un departamento de El Salvador. Su Cabecera es
+                  la ciudad de Santa Tecla, Cabecera también del municipio homónimo. 
+                  Tiene una extensión territorial de 1653 km² y 
+                  una población de 843 500 habitantes</p>
+              
+                      <h2>Municipios</h2>
+                          <p>- Chiltiupan</p>
+                          <p>- Ciudad Arce</p> 
+                          <p>- Comasagua</p>
+                          <p>- Jayaque</p>
+                          <p>- Colon</p>
+                          
+                      <h2>Centros turisticos</h2>
+                          <p>- Catedral de Trujillo</p>
+                          <p>- Museo Muacas de Moche</p> 
+                          <p>- Huaca</p>
+                          <p>- Iglesia de agustin</p>
+                  
+                      <h2>Personajes Celebres</h2>
+                          <p>- Cesar Vallejo Mendoza </p>
+                          <p>- Victor Raul de la Torre</p> 
+                          <p>- Jose Marti </p>  
+                  </div> 
+  
+                  <div id="Cuscatlan">
+                      <h1>Cuscatlan</h1>
+                      <img src="img/Cusca.png" alt="">
+                  <p>Departamento ubicado en la zona central de la República El Salvador, 
+                      de población pipil precolombina, su nombre etimológicamente significa 
+                      “lugar de joyas y collares”, que proviene de las voces “coxcatl”, “cuzcatl” o “cuzcat” 
+                      (joya preciosa, cuenta de escapulario, collar) y “tlan” o “tan” (preposición locativa).</p>
+                  
+                          <h2>Municipios</h2>
+                              <p>-Cojutepeque</p>
+                              <p>- Suchitoto</p> 
+                              <p>- Nejapa</p>
+                              <p>- San Rafael Cedros</p>
+                              <p>- Tenacinango</p>
+                              
+                          <h2>Centros turisticos</h2>
+                              <p>- Parque Cuscatlan</p>
+                              <p>- Jardin Botanico la Laguna</p> 
+                              <p>- El cerro de las pavas</p>
+                              
+                      
+                          <h2>Personajes Celebres</h2>
+                              <p>- Rafael Cabrera</p>
+                              <p>- Ana Dolores Arias</p> 
+                              
+                      </div>
+  
+                      <div id="SanSalvador">
+                          <h1>San Salvador</h1>
+                          <img src="img/SS.png" alt="">
+                      <p>San Salvador es la capital y la urbe más grande de la República de El Salvador y 
+                          una de las ciudades más pobladas de Centroamérica. Ubicada en uno de los catorce 
+                          departamentos de la nación, específicamente en el departamento de San Salvador, 
+                          alberga las sedes del gobierno, de los tres poderes del Estado, las principales 
+                          empresas de economía</p>
+                      
+                              <h2>Municipios</h2>
+                                  <p>- Ilopango </p>
+                                  <p>- Mejicanos</p> 
+                                  <p>- Nejapa</p>
+                                  <p>- Panchimalco</p>
+                                  <p>- Rosario de Mora</p>
+                                  
+                              <h2>Centros turisticos</h2>
+                                  <p>- Iglesia de Rosario</p>
+                                  <p>- Monumento Salvador del mundo</p> 
+                                  <p>- Museo de Arte El Salvador</p>
+                                  <p>- Hospital Divina Providencia</p>
+                          
+                              <h2>Personajes Celebres</h2>
+                                  <p>- Francisco Gavidia</p>
+                                  <p>- David Joaquin Guzman</p> 
+                                  
+                          </div> 
+                          <div id="LaPaz">
+                              <h1>la Paz</h1>
+                              <img src="img/Paz.png" alt="">
+                          <p>La Paz es uno de los catorce departamentos que conforman la República de El Salvador. 
+                              La cabecera departamental es la ciudad de Zacatecoluca. El departamento 
+                              de La Paz se halla situado en el sector centro-sur de El Salvador. Sus 
+                              límites son el lago de Ilopango y el departamento de Cuscatlán al norte,
+                               el departamento de San Vicente al NorEste y Este</p>
+                          
+                                  <h2>Municipios</h2>
+                                      <p>- Zacatecoluca </p>
+                                      <p>- Jerusalen</p> 
+                                      <p>- Olocuilta </p>
+                                      <p>- El Rosario </p>
+                                      <p>- San Luis</p>
+                                      
+                                  <h2>Centros turisticos</h2>
+                                      <p>- Plaza Murillo</p>
+                                      <p>- Caranavi</p> 
+                                      <p>- Valle de la Luna</p>
+                                      <p>- Chacaltaya</p>
+                              
+                                  <h2>Personajes Celebres</h2>
+                                      <p>- Luis Arce catacora</p>
+                                      <p>- Nestor Taboada Teran</p> 
+                                      
+                              </div>    
+                              <div id="SanVicente">
+                                  <h1>San Vicente</h1>
+                                  <img src="img/SVicente.png" alt="">
+                              <p>San Vicente es la ciudad cabecera del municipio y departamento homónimos
+                                  en El Salvador. Fue fundada en el año 1635 y llegó a ser capital del Estado
+                                   entre 1834 a 1840</p>
+                              
+                                      <h2>Municipios</h2>
+                                          <p>- Guadalupe</p>
+                                          <p>- Tecoluca</p> 
+                                          <p>- San Lorenzo</p>
+                                          <p>- San Sebastian</p>
+                                          <p>- Santo Domingo</p>
+                                          
+                                      <h2>Centros turisticos</h2>
+                                          <p>- Dulceria Villalta</p>
+                                          <p>- Casa Vieja</p> 
+                                          <p>- Parque acuatico Amalupa</p>
+                                          
+                                  
+                                      <h2>Personajes Celebres</h2>
+                                          <p>- Carmen Walls</p>
+                                          <p>- Victor Elso</p> 
+                                          <p>- Rodolfo walsh</p> 
+                                          
+                                  </div>  
+                                  <div id="Cabañas">
+                                      <h1>Cabañas</h1>
+                                      <img src="img/Cabañas.png" alt="">
+                                  <p>Cabañas es un departamento de la zona paracentral de El Salvador. 
+                                      Su cabecera departamental es Sensuntepeque. Esta región tiene muchas 
+                                      reservas naturales. El departamento fue nombrado en honor del político 
+                                      centroamericanista hondureño, José Trinidad Cabañas.</p>
+                                  
+                                          <h2>Municipios</h2>
+                                              <p>- Ilobasco</p>
+                                              <p>- San Isidro</p> 
+                                              <p>- Sensutepepeque</p>
+                                              <p>- Cinquera</p>
+                                              <p>- Guatotecti</p>
+                                              
+                                          <h2>Centros turisticos</h2>
+                                              <p>- Barranca Zizimico</p>
+                                              <p>- Volcan de San vicente</p> 
+                                              <p>- La iglesia del pilar</p>
+                                              
+                                      
+                                          <h2>Personajes Celebres</h2>
+                                              <p>- Jose trinidad cabañas</p>
+                                              <p>- Oscar perdonomo Leon</p> 
+                                              <p>- Valencia perdonomo</p> 
+                                              
+                                      </div> 
+
+                                      <a name="ZonaOri"></a><h1 class="text-center">Zona Oriental</h1>
+                                      <div id="Usulutan">
+                                      <h1>Usulutan</h1>
+                                      <img src="img/Usu.png" alt="">
+                                  <p>Usulután es una ciudad de El Salvador, que es cabecera del municipio y 
+                                      departamento homónimos. El topónimo en Idioma náhuat Usulután 
+                                      significa «Entre los Uselotes o jaguares»; .</p>
+                                  
+                                          <h2>Municipios</h2>
+                                              <p>- Santa Elena</p>
+                                              <p>- Santa Maria</p> 
+                                              <p>- Batres</p>
+                                              <p>- jucuaran</p>
+                                              <p>- El triunfo</p>
+                                              
+                                          <h2>Centros turisticos</h2>
+                                              <p>- bahia de jiquilisco</p>
+                                              <p>- Laguna de la alegria </p> 
+                                              <p>- Volcan tecapa</p>
+                                              
+                                      
+                                          <h2>Personajes Celebres</h2>
+                                              <p>- Gregorio Melara</p>
+                                              <p>- Alberto Masferrer</p> 
+                                              <p>- Manuel Enrique Araujo</p> 
+                                              
+                                      </div>   
+                                      <div id="SanMiguel">
+                                          <h1>San Miguel</h1>
+                                          <img src="img/SMiguel.png" alt="">
+                                      <p>San Miguel es una ciudad y municipio del departamento de San Miguel, 
+                                          El Salvador. Es también la cabecera departamental del departamento homónimo.
+                                           Históricamente ha sido y sigue siendo, por casi 500 años ya, 
+                                           la ciudad más importante de la zona oriental del país..</p>
+                                      
+                                              <h2>Municipios</h2>
+                                                  <p>- Chapaltepique</p>
+                                                  <p>- Chinameca</p> 
+                                                  <p>- Comacaran</p>
+                                                  <p>- Carolina</p>
+                                                  <p>- Chirilagua</p>
+                                                  
+                                              <h2>Centros turisticos</h2>
+                                                  <p>- Ruinas de quelepe</p>
+                                                  <p>- Laguna Olomega </p> 
+                                                  <p>- El cuco</p>
+                                                  
+                                          
+                                              <h2>Personajes Celebres</h2>
+                                                  <p>- Andres del Valle</p>
+                                                  <p>- Domingo Ascona</p> 
+                                                  <p>- Pedro Angulo</p> 
+                                                  
+                                          </div>  
+                                          <div id="Morazan">
+                                              <h1>Morazan</h1>
+                                              <img src="img/Mora.png" alt="">
+                                          <p>Morazán es un departamento de El Salvador ubicado en la zona 
+                                              oriental del país. Limita al norte con la república de Honduras; 
+                                              al sur y al oeste con el departamento de San Miguel, y al sur y
+                                               al este con el departamento de La Unión. Su cabecera departamental
+                                               San Francisco Gotera.2​ Morazán comprende un territorio de 1 447 km² 
+                                               y cuenta con una población de 252 500 habitantes.</p>
+                                          
+                                                  <h2>Municipios</h2>
+                                                      <p>- Arambala</p>
+                                                      <p>- Chilanga</p> 
+                                                      <p>- El Rosario</p>
+                                                      <p>- Divisadero</p>
+                                                      <p>- Corinto</p>
+                                                      
+                                                  <h2>Centros turisticos</h2>
+                                                      <p>- Perquin</p>
+                                                      <p>- Turicentro atecozol </p> 
+                                                      <p>- Ruta de la Paz</p>
+                                                      
+                                              
+                                                  <h2>Personajes Celebres</h2>
+                                                      <p>- Fidel Sanchez</p>
+                                                      <p>- Joaquin Rodezno</p> 
+                                                      <p>- Bryan David Aparicio</p> 
+                                                      
+                                              </div>
+                                              <div id="LaUnion">
+                                                  <h1>La Union</h1>
+                                                  <img src="img/Union.png" alt="">
+                                              <p>Es la capital del departamento de La Unión. Es la ciudad más grande del departamento con una 
+                                                  población de aproximadamente 34.000 habitantes. Anteriormente conocido como Puerto San Carlos, 
+                                                  fue renombrado La Unión el 13 de julio de 1824 después de que El Salvador se independizara de 
+                                                  España y formara las Provincias Unidas de América Central
+                                                  </p>
+                                              
+                                                      <h2>Municipios</h2>
+                                                          <p>- El Carmen</p>
+                                                          <p>- El Sauce</p> 
+                                                          <p>- Intipuca</p>
+                                                          <p>- Anamoros</p>
+                                                          <p>- Conchagua</p>
+                                                          
+                                                      <h2>Centros turisticos</h2>
+                                                          <p>- Golfo de Fonseca</p>
+                                                          <p>- Volcan de Conchagua </p> 
+                                                          <p>- El Ocote</p>
+                                                          <p>- Playa el tamarindo</p>
+                                                          
+                                                  
+                                                      <h2>Personajes Celebres</h2>
+                                                          <p>- Maria Cegarra Salcedo</p>
+                                                          <p>- Asesio Saez</p> 
+                                                          <p>- Antonio Grau Mora</p> 
+                                                          
+                                                  </div>                                                                   
+                                
+               
+      </div>
+  </div>
+    
+    
+</div>
+
+
+</body>
+</html>

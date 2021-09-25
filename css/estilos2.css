@@ -1,0 +1,272 @@
+.nav li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+nav>li{
+    float: left;
+}
+.nav li a:hover{
+    background-color: #434343;
+}
+nav li ul{
+    display:none;
+}
+.nav li:hover>ul{
+    display: block;
+}
+#logo {
+    padding-left: 5px;
+}
+#mapa
+{
+width: 730px;
+height: 480px;
+padding-top: 10px;
+z-index: 5;
+position: center;
+
+}
+.departamentos{
+    padding: 15px 40px;
+    font-size: 10px;
+    display: none;
+}
+
+.infodepa{
+    padding-left: 90px;
+}
+h1{
+    text-align: center;
+}
+#ahuachapan1{
+
+    position: relative;
+    bottom: 270px;
+    left: 200px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#Sonsonate1{
+    position: relative;
+    bottom: 270px;
+    left: 200px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#LaLibertad1{
+    position: relative;
+    bottom: 160px;
+    left: 500px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#cabañas1{
+    position: relative;
+    bottom: 280px;
+    left: 700px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#LaPaz1{
+    position: relative;
+    bottom: 170px;
+    left: 600px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#SanSalvador1{
+    position: relative;
+    bottom: 200px;
+    left: 570px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#Cuscatlán1{
+    position: relative;
+    bottom:240px;
+    left: 570px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#chalatenango1{
+    position: relative;
+    bottom: 390px;
+    left: 600px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#SanVicente1{
+    position: relative;
+    bottom: 170px;
+    left: 680px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#Morazán1{
+    position: relative;
+    bottom:250px;
+    left: 850px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#LaUnion1{
+    position: relative;
+    bottom:130px;
+    left: 889px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#Usulután1{
+    position: relative;
+    bottom: 120px;
+    left: 610px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#SanMiguel1{
+    position: relative;
+    bottom:130px;
+    left: 850px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#SantaAna1{
+    display: none;
+    position: relative;
+    bottom: 370px;
+    left: 480px;
+    background-color:#434343;
+    width: 200px;
+    padding: 20px;
+    color: white;
+}
+#Ahu{
+   position: relative;
+   color: white;
+   bottom: 274px;
+   left: 340px;
+   text-decoration: none;
+
+}
+#cab{
+    position: relative;
+    color: white;
+    bottom: 280px;
+    left: 640px;
+    text-decoration: none;
+}
+#cha{
+    position: relative;
+    color: white;
+    bottom: 380px;
+    left:430px;
+    text-decoration: none;
+}
+#cus{
+    position: relative;
+    color: white;
+    bottom: 248px;
+    left: 385px;
+    font-size: 12px;
+    text-decoration: none;
+}
+#liber{
+    position: relative;
+    color: white;
+    bottom: 174px;
+    left: 190px;
+    text-decoration: none;
+}
+#mora{
+    position: relative;
+    color: white;
+    bottom: 244px;
+    left: 500px;
+    text-decoration: none;
+}
+#paz{
+    position: relative;
+    color: white;
+    bottom: 174px;
+    left: 190px;
+    text-decoration: none;
+}
+#sant{
+    position: relative;
+    color: white;
+    bottom: 370px;
+    right: 40px;
+    text-decoration: none;
+}
+#sanmi{
+    position: relative;
+    color: white;
+    bottom: 154px;
+    left: 287px;
+    text-decoration: none;
+}
+#sansalv{
+    position: relative;
+    color: white;
+    bottom: 228px;
+    right: 80px;
+    font-size: 12px;
+    text-decoration: none;
+}
+#sanvic{
+    position: relative;
+    color: white;
+    bottom: 189px;
+    right: 30px;
+    text-decoration: none;
+}
+#sonso{
+    position: relative;
+    color: white;
+    bottom: 200px;
+    right: 405px;
+    text-decoration: none;
+}
+#union{
+    position: relative;
+    color: white;
+    bottom: 150px;
+    left:60px;
+    text-decoration: none;
+}
+#usul{
+    position: relative;
+    color: white;
+    bottom:124px;
+    right: 190px;
+    text-decoration: none;
+}
+
+

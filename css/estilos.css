@@ -1,0 +1,261 @@
+.nav li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+nav>li{
+    float: left;
+}
+.nav li a:hover{
+    background-color: #434343;
+}
+nav li ul{
+    display:none;
+}
+.nav li:hover>ul{
+    display: block;
+}
+#logo {
+    padding-left: 5px;
+}
+#mapa
+{
+width: 720px;
+height: 480px;
+padding-top: 10px;
+z-index: 5;
+position: center;
+
+}
+.departamentos{
+    padding: 15px 40px;
+    
+}
+.infodepa{
+    padding-left: 90px;
+}
+h1, h2, p{
+    text-align: center;
+}
+
+#Ahuachapan{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #58ACFA;
+    position: relative;
+    left: 300px;
+}
+#Sonsonate{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #58ACFA;
+    position: relative;
+    left: 300px;
+}
+#SantaAna{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #58ACFA;
+    position: relative;
+    left: 300px;
+}
+#Chalatenango{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #FA5858;
+    position: relative;
+    left: 300px;
+}
+#LaLibertad{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #FA5858;
+    position: relative;
+    left: 300px;
+}
+#SanSalvador{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #FA5858;
+    position: relative;
+    left: 300px;
+}
+#Cuscatlan{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #FA5858;
+    position: relative;
+    left: 300px;
+}
+#LaPaz{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #FA5858;
+    position: relative;
+    left: 300px;
+}
+#SanVicente{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #FA5858;
+    position: relative;
+    left: 300px;
+}
+#Cabañas{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #FA5858;
+    position: relative;
+    left: 300px;
+}
+#Usulutan{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #9FF781;
+    position: relative;
+    left: 300px;
+}
+#SanMiguel{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #9FF781;
+    position: relative;
+    left: 300px;
+}
+#Morazan{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #9FF781;
+    position: relative;
+    left: 300px;
+}
+#LaUnion{
+    padding: 20px;
+    color: black;
+    width: 950px;
+    margin: 20px;
+    background: #9FF781;
+    position: relative;
+    left: 300px;
+}
+
+#Ahuachapan img{
+	position: relative;
+	float: right;
+	height: 330px;
+}
+
+#Sonsonate img{
+	position: relative;
+	float: right;
+
+}
+
+#SantaAna img{
+	position: relative;
+	float: right;
+	height: 350px;
+}
+
+#Chalatenango img{
+	position: relative;
+	float: right;
+	height: 370px;
+
+}
+
+#SanSalvador img{
+	position: relative;
+	float: right;
+	height: 550px;
+}
+
+#Cuscatlan img{
+	position: relative;
+	float: right;
+	height: 350px;
+}
+
+#Cabañas img{
+	position: relative;
+	float: right;
+
+}
+
+#SanVicente img{
+	position: relative;
+	float: right;
+	height: 330px;
+}
+
+#LaLibertad img{
+	position: relative;
+	float: right;
+	height: 515px;
+}
+
+#LaPaz img{
+	position: relative;
+	float: right;
+	height: 370px;
+}
+
+#SanMiguel img{
+	position: relative;
+	float: right;
+	height: 500px;
+}
+
+#Morazan img{
+	position: relative;
+	float: right;
+	height: 380px;
+}
+
+#LaUnion img{
+	position: relative;
+	float: right;
+	height: 600px;
+}
+
+#Usulutan img{
+	position: relative;
+	float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
